@@ -60,7 +60,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src={logo} width={180} ></img>
+      {/* <img src={logo} width={180} ></img>
       <h1 id='h1'>Mobile Operating System</h1>
 
       <ul>
@@ -74,7 +74,7 @@ function App() {
         {MobileManufac.map(e => <li>{e}</li>)}
       </ul>
 
-      {MobileOS.map(e => <Todos num={e} />)}
+      {MobileOS.map(e => <Todos num={e} />)} */}
 
       <h1>Counter : {count}</h1>
       {" "}
